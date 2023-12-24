@@ -74,7 +74,7 @@
               software development from ISTA, marking the beginning of my
               journey into the world of programming. Driven by a genuine love
               for coding and problem-solving, I decided to enhance my skills
-              further. In 2024, I successfully completed the JobInTech Bootcamp,
+              further. In 2023, I completed the JobInTech Bootcamp,
               specializing in the MERN (MongoDB, Express.js, React.js, Node.js)
               stack. This intensive experience has equipped me with a solid
               foundation in modern web development.
