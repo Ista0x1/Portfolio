@@ -174,7 +174,7 @@
             <div class="heading"><b>Résumé</b></div>
             <a
               style="color: #ff5733"
-              href="/files/fullstackEN.pdf"
+              href="/files/ismailistaresume.pdf"
               class="paragraph"
               >Check out my résumé here.</a
             >

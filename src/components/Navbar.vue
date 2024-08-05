@@ -55,7 +55,7 @@
           NOSSAFLEX
         </div>
 
-        <div
+        <!-- <div
           alt="Photos"
           class="icon-photo"
           v-on:click="showPhotos"
@@ -66,7 +66,7 @@
         >
           <img class="icon-image" src="../assets/win95Icons/photos.png" />
           Photos
-        </div>
+        </div> -->
 
         <div
           alt="Mail"

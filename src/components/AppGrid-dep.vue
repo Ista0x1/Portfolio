@@ -7,7 +7,7 @@
       </div>
     </button>
     <button class="app" v-touch:tap="openResume" v-on:dblclick="openResume">
-      <!-- <a href="/files/fullstackEN.pdf" target="_blank"> -->
+      <!-- <a href="/files/ismailistaresume.pdf" target="_blank"> -->
       <img class="icon app-github" src="../assets/iPhone-Icons/resume.png" />
       <div class="border">
         <div class="icon-text">Résumé</div>
@@ -103,15 +103,7 @@ export default {
         this.$store.commit("zIndexIncrement", "mail");
       }, 1);
     },
-    openPhotos(e) {
-      e.stopPropagation();
-      this.$store.commit("toggleClosePhotos", true);
-      this.$store.commit("toggleShownPhotos", true);
-      this.$store.commit("changeActiveWindow", "Photos");
-      setTimeout(() => {
-        this.$store.commit("zIndexIncrement", "photos");
-      }, 1);
-    },
+    
     openNoss(e) {
       e.stopPropagation();
       this.$store.commit("toggleCloseNossaflex", true);

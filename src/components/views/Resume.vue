@@ -2,7 +2,7 @@
   <div style="display: flex; height: 100%; flex-direction: column">
     <nav class="download-bar">
       <a
-        href="/files/fullstackEN.pdf"
+        href="/files/ismailistaresume.pdf"
         class="download"
         style="z-index: 10"
         download
@@ -15,7 +15,7 @@
       </a>
 
       <a
-        href="/files/fullstackEN.pdf"
+        href="/files/ismailistaresume.pdf"
         class="download"
         style="z-index: 10"
         target="_blank"
@@ -34,7 +34,7 @@
       <iframe
         @click.native="openWindow('ResumeWindow')"
         class="frame"
-        src="https://drive.google.com/file/d/1ZENKu1i-pMn540uh59ZY_2asjDDXCWVd/preview"
+        src="https://drive.google.com/file/d/1sl-F_Buyms8a49mXXIAwrEjlLE0-xxD7/preview"
       ></iframe>
       <span
         v-if="$store.getters.getActiveWindow != 'ResumeWindow'"

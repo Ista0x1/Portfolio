@@ -253,7 +253,7 @@
             <div class="heading"><b>Résumé</b></div>
             <a
               style="color: #ff5733"
-              href="/files/fullstackEN.pdf"
+              href="/files/ismailistaresume.pdf"
               class="paragraph"
               >Check out my résumé here.</a
             >
@@ -622,14 +622,14 @@ export default {
     },
   },
   methods: {
-    showPhotos(e) {
-      e.stopPropagation();
-      this.$store.commit("changeActiveWindow", "Photos");
-      this.$store.commit("toggleShownPhotos", true);
-      setTimeout(() => {
-        this.$store.commit("zIndexIncrement", "photos");
-      }, 1);
-    },
+    // showPhotos(e) {
+    //   e.stopPropagation();
+    //   this.$store.commit("changeActiveWindow", "Photos");
+    //   this.$store.commit("toggleShownPhotos", true);
+    //   setTimeout(() => {
+    //     this.$store.commit("zIndexIncrement", "photos");
+    //   }, 1);
+    // },
     showColorization(e) {
       e.stopPropagation();
       this.$store.commit("changeActiveWindow", "Colorization");

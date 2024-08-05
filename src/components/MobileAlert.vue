@@ -67,7 +67,7 @@
             </button>
             <a
               v-on:click="closeMobileAlert"
-              href="/files/fullstackEN.pdf"
+              href="/files/ismailistaresume.pdf"
               class="download"
               style="z-index: 10; font-size: 10px; width: 18%"
               target="_blank"
